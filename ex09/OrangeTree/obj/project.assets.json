@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Kode\\ex09\\OrangeTree\\OrangeTreeSim.csproj",
+      "projectUniqueName": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\ex09\\OrangeTree\\OrangeTreeSim.csproj",
       "projectName": "OrangeTreeSim",
-      "projectPath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Kode\\ex09\\OrangeTree\\OrangeTreeSim.csproj",
+      "projectPath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\ex09\\OrangeTree\\OrangeTreeSim.csproj",
       "packagesPath": "C:\\Users\\askel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Kode\\ex09\\OrangeTree\\obj\\",
+      "outputPath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\ex09\\OrangeTree\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\askel\\AppData\\Roaming\\NuGet\\NuGet.Config",

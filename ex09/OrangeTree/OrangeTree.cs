@@ -10,7 +10,7 @@ namespace OrangeTreeSim
     {
 
         private int _age;
-            public int Age
+            public int Alder
             {
                 get { return _age; }
                 set 
