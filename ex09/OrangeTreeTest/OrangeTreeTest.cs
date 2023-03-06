@@ -12,7 +12,7 @@ namespace OrangeTreeTest
         {
             // Start an orange tree
             orangeTree = new OrangeTree();
-            orangeTree.Alder = 0;
+            orangeTree.Age = 0;
             orangeTree.Height = 6;
             orangeTree.TreeAlive = true;
         }
@@ -24,7 +24,7 @@ namespace OrangeTreeTest
             orangeTree.OneYearPasses();
 
             //Assert
-            Assert.AreEqual(1, orangeTree.Alder);
+            Assert.AreEqual(1, orangeTree.Age);
         }
         [TestMethod]
         public void ShouldIncrementTheTreesHeightByTwoWithEachPassingYear()
@@ -111,11 +111,11 @@ namespace OrangeTreeTest
             orangeTree.OneYearPasses();
             Assert.AreEqual(0, orangeTree.NumOranges);
             Assert.AreEqual(164, orangeTree.Height);
-            Assert.AreEqual(81, orangeTree.Alder);
+            Assert.AreEqual(81, orangeTree.Age);
             orangeTree.OneYearPasses();
             Assert.AreEqual(0, orangeTree.NumOranges);
             Assert.AreEqual(164, orangeTree.Height);
-            Assert.AreEqual(82, orangeTree.Alder);
+            Assert.AreEqual(82, orangeTree.Age);
 
         }
 
