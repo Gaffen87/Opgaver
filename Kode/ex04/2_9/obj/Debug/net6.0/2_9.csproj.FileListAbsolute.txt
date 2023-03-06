@@ -1,0 +1,15 @@
+C:\Users\askel\Desktop\Skole\Programmering\ex04\2_9\bin\Debug\net6.0\2_9.exe
+C:\Users\askel\Desktop\Skole\Programmering\ex04\2_9\bin\Debug\net6.0\2_9.deps.json
+C:\Users\askel\Desktop\Skole\Programmering\ex04\2_9\bin\Debug\net6.0\2_9.runtimeconfig.json
+C:\Users\askel\Desktop\Skole\Programmering\ex04\2_9\bin\Debug\net6.0\2_9.dll
+C:\Users\askel\Desktop\Skole\Programmering\ex04\2_9\bin\Debug\net6.0\2_9.pdb
+C:\Users\askel\Desktop\Skole\Programmering\ex04\2_9\obj\Debug\net6.0\2_9.csproj.AssemblyReference.cache
+C:\Users\askel\Desktop\Skole\Programmering\ex04\2_9\obj\Debug\net6.0\2_9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\askel\Desktop\Skole\Programmering\ex04\2_9\obj\Debug\net6.0\2_9.AssemblyInfoInputs.cache
+C:\Users\askel\Desktop\Skole\Programmering\ex04\2_9\obj\Debug\net6.0\2_9.AssemblyInfo.cs
+C:\Users\askel\Desktop\Skole\Programmering\ex04\2_9\obj\Debug\net6.0\2_9.csproj.CoreCompileInputs.cache
+C:\Users\askel\Desktop\Skole\Programmering\ex04\2_9\obj\Debug\net6.0\2_9.dll
+C:\Users\askel\Desktop\Skole\Programmering\ex04\2_9\obj\Debug\net6.0\refint\2_9.dll
+C:\Users\askel\Desktop\Skole\Programmering\ex04\2_9\obj\Debug\net6.0\2_9.pdb
+C:\Users\askel\Desktop\Skole\Programmering\ex04\2_9\obj\Debug\net6.0\2_9.genruntimeconfig.cache
+C:\Users\askel\Desktop\Skole\Programmering\ex04\2_9\obj\Debug\net6.0\ref\2_9.dll

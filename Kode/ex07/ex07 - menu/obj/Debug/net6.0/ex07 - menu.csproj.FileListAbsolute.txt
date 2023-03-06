@@ -1,0 +1,15 @@
+C:\Users\askel\Desktop\Skole\Programmering\Kode\ex07\ex07 - menu\bin\Debug\net6.0\ex07 - menu.exe
+C:\Users\askel\Desktop\Skole\Programmering\Kode\ex07\ex07 - menu\bin\Debug\net6.0\ex07 - menu.deps.json
+C:\Users\askel\Desktop\Skole\Programmering\Kode\ex07\ex07 - menu\bin\Debug\net6.0\ex07 - menu.runtimeconfig.json
+C:\Users\askel\Desktop\Skole\Programmering\Kode\ex07\ex07 - menu\bin\Debug\net6.0\ex07 - menu.dll
+C:\Users\askel\Desktop\Skole\Programmering\Kode\ex07\ex07 - menu\bin\Debug\net6.0\ex07 - menu.pdb
+C:\Users\askel\Desktop\Skole\Programmering\Kode\ex07\ex07 - menu\obj\Debug\net6.0\ex07 - menu.csproj.AssemblyReference.cache
+C:\Users\askel\Desktop\Skole\Programmering\Kode\ex07\ex07 - menu\obj\Debug\net6.0\ex07 - menu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\askel\Desktop\Skole\Programmering\Kode\ex07\ex07 - menu\obj\Debug\net6.0\ex07 - menu.AssemblyInfoInputs.cache
+C:\Users\askel\Desktop\Skole\Programmering\Kode\ex07\ex07 - menu\obj\Debug\net6.0\ex07 - menu.AssemblyInfo.cs
+C:\Users\askel\Desktop\Skole\Programmering\Kode\ex07\ex07 - menu\obj\Debug\net6.0\ex07 - menu.csproj.CoreCompileInputs.cache
+C:\Users\askel\Desktop\Skole\Programmering\Kode\ex07\ex07 - menu\obj\Debug\net6.0\ex07 - menu.dll
+C:\Users\askel\Desktop\Skole\Programmering\Kode\ex07\ex07 - menu\obj\Debug\net6.0\refint\ex07 - menu.dll
+C:\Users\askel\Desktop\Skole\Programmering\Kode\ex07\ex07 - menu\obj\Debug\net6.0\ex07 - menu.pdb
+C:\Users\askel\Desktop\Skole\Programmering\Kode\ex07\ex07 - menu\obj\Debug\net6.0\ex07 - menu.genruntimeconfig.cache
+C:\Users\askel\Desktop\Skole\Programmering\Kode\ex07\ex07 - menu\obj\Debug\net6.0\ref\ex07 - menu.dll
