@@ -81,110 +81,110 @@ namespace PersistensTest
             Assert.AreEqual(8, loadedPersons[0].BirthDate.Month);
         }
 
-        //[TestMethod]
-        //public void CheckPersonConstructorOverloading()
-        //{
-        //     #### ARRANGE ####
-        //    Person person = new Person("Anders Andersen", new DateTime(1975, 8, 24), 175.9, true);
+        [TestMethod]
+        public void CheckPersonConstructorOverloading()
+        {
+            //#### ARRANGE ####
+            Person person = new Person("Anders Andersen", new DateTime(1975, 8, 24), 175.9, true);
 
-        //     #### ACT ####
-        //    string title = person.MakeTitle();
+            // #### ACT ####
+            string title = person.MakeTitle();
 
-        //     #### ASSERT ####
-        //    Assert.AreEqual("Anders Andersen;24-08-1975 00:00:00;175,9;True;0", title);
-        //}
-        //[TestMethod]
-        //[ExpectedException(typeof(Exception))]
-        //public void CheckPersonConstructorInvalidHeight()
-        //{
-        //    // #### ARRANGE ####
-        //    Person person = new Person("Anders Andersen", new DateTime(1975, 8, 24), -10.0, true, 3);
+            //#### ASSERT ####
+            Assert.AreEqual("Anders Andersen;24-08-1975 00:00:00;175,9;True;0", title);
+        }
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void CheckPersonConstructorInvalidHeight()
+        {
+            // #### ARRANGE ####
+            Person person = new Person("Anders Andersen", new DateTime(1975, 8, 24), -10.0, true, 3);
 
-        //    // #### ACT ####
+            // #### ACT ####
 
-        //    // #### ASSERT ####
-        //}
-        //[TestMethod]
-        //[ExpectedException(typeof(Exception))]
-        //public void CheckPersonConstructorInvalidName()
-        //{
-        //    // #### ARRANGE ####
-        //    Person person = new Person("", new DateTime(1975, 8, 24), 175.9, true, 3);
+            // #### ASSERT ####
+        }
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void CheckPersonConstructorInvalidName()
+        {
+            // #### ARRANGE ####
+            Person person = new Person("", new DateTime(1975, 8, 24), 175.9, true, 3);
 
-        //    // #### ACT ####
+            // #### ACT ####
 
-        //    // #### ASSERT ####
-        //}
-        //[TestMethod]
-        //[ExpectedException(typeof(Exception))]
-        //public void CheckPersonConstructorInvalidBirthDate()
-        //{
-        //    // #### ARRANGE ####
-        //    Person person = new Person("Anders Andersen", new DateTime(1875, 8, 24), 175.9, true, 3);
+            // #### ASSERT ####
+        }
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void CheckPersonConstructorInvalidBirthDate()
+        {
+            // #### ARRANGE ####
+            Person person = new Person("Anders Andersen", new DateTime(1875, 8, 24), 175.9, true, 3);
 
-        //    // #### ACT ####
+            // #### ACT ####
 
-        //    // #### ASSERT ####
-        //}
-        //[TestMethod]
-        //[ExpectedException(typeof(Exception))]
-        //public void CheckPersonConstructorInvalidNoOfChildren()
-        //{
-        //    // #### ARRANGE ####
-        //    Person person = new Person("Anders Andersen", new DateTime(1975, 8, 24), 175.9, true, -3);
+            // #### ASSERT ####
+        }
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void CheckPersonConstructorInvalidNoOfChildren()
+        {
+            // #### ARRANGE ####
+            Person person = new Person("Anders Andersen", new DateTime(1975, 8, 24), 175.9, true, -3);
 
-        //    // #### ACT ####
+            // #### ACT ####
 
-        //    // #### ASSERT ####
-        //}
-        //[TestMethod]
-        //[ExpectedException(typeof(Exception))]
-        //public void CheckPersonInvalidNameChange()
-        //{
-        //    // #### ARRANGE ####
-        //    Person person = new Person("Anders Andersen", new DateTime(1975, 8, 24), 175.9, true, 3);
+            // #### ASSERT ####
+        }
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void CheckPersonInvalidNameChange()
+        {
+            // #### ARRANGE ####
+            Person person = new Person("Anders Andersen", new DateTime(1975, 8, 24), 175.9, true, 3);
 
-        //    // #### ACT ####
-        //    person.Name = "";
+            // #### ACT ####
+            person.Name = "";
 
-        //    // #### ASSERT ####
-        //}
-        //[TestMethod]
-        //[ExpectedException(typeof(Exception))]
-        //public void CheckPersonInvalidBirthDateChange()
-        //{
-        //    // #### ARRANGE ####
-        //    Person person = new Person("Anders Andersen", new DateTime(1975, 8, 24), 175.9, true, 3);
+            // #### ASSERT ####
+        }
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void CheckPersonInvalidBirthDateChange()
+        {
+            // #### ARRANGE ####
+            Person person = new Person("Anders Andersen", new DateTime(1975, 8, 24), 175.9, true, 3);
 
-        //    // #### ACT ####
-        //    person.BirthDate = new DateTime(1875, 8, 24);
+            // #### ACT ####
+            person.BirthDate = new DateTime(1875, 8, 24);
 
-        //    // #### ASSERT ####
-        //}
-        //[TestMethod]
-        //[ExpectedException(typeof(Exception))]
-        //public void CheckPersonInvalidHeightChange()
-        //{
-        //    // #### ARRANGE ####
-        //    Person person = new Person("Anders Andersen", new DateTime(1975, 8, 24), 175.9, true, 3);
+            // #### ASSERT ####
+        }
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void CheckPersonInvalidHeightChange()
+        {
+            // #### ARRANGE ####
+            Person person = new Person("Anders Andersen", new DateTime(1975, 8, 24), 175.9, true, 3);
 
-        //    // #### ACT ####
-        //    person.Height = -10.0;
+            // #### ACT ####
+            person.Height = -10.0;
 
-        //    // #### ASSERT ####
-        //}
-        //[TestMethod]
-        //[ExpectedException(typeof(Exception))]
-        //public void CheckPersonInvalidNoOfChildrenChange()
-        //{
-        //    // #### ARRANGE ####
-        //    Person person = new Person("Anders Andersen", new DateTime(1975, 8, 24), 175.9, true, 3);
+            // #### ASSERT ####
+        }
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void CheckPersonInvalidNoOfChildrenChange()
+        {
+            // #### ARRANGE ####
+            Person person = new Person("Anders Andersen", new DateTime(1975, 8, 24), 175.9, true, 3);
 
-        //    // #### ACT ####
-        //    person.NoOfChildren = -3;
+            // #### ACT ####
+            person.NoOfChildren = -3;
 
-        //    // #### ASSERT ####
-        //}
+            // #### ASSERT ####
+        }
 
     }
 

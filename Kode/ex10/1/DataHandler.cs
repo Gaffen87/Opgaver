@@ -48,9 +48,21 @@ namespace Persistens
 
         public Person[] LoadPersons()
         {
+            Person[] persons = new Person[_dataFileName.Length];
+            int i = 0;
+
             using StreamReader Load = new StreamReader(_dataFileName);
+            string line = Load.ReadLine();
+            while (line != null)
+            {
+                string[] split = line.Split(";");
+                Person person = new Person(split[0], DateTime.Parse(split[1]), double.Parse(split[2]), bool.Parse(split[3]), int.Parse(split[4]));
+                persons[i] = person;
+                i++;
+                line = Load.ReadLine();
+            }
 
-
+            return persons;
         }
     }
 }
