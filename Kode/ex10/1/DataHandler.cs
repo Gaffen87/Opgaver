@@ -21,14 +21,13 @@ namespace Persistens
 
         public void SavePerson(Person person)
         {
-            StreamWriter Save = new StreamWriter(_dataFileName);
+            using StreamWriter Save = new StreamWriter(_dataFileName);
             Save.WriteLine(person.MakeTitle());
-            Save.Close();
         }
 
         public Person LoadPerson()
         {
-            StreamReader Load = new StreamReader(_dataFileName);
+            using StreamReader Load = new StreamReader(_dataFileName);
             string str = Load.ReadToEnd();
 
             string[] split = str.Split(";");
@@ -36,6 +35,22 @@ namespace Persistens
             Person person = new Person(split[0], DateTime.Parse(split[1]), double.Parse(split[2]), bool.Parse(split[3]), int.Parse(split[4]));
 
             return person;
+        }
+
+        public void SavePersons(Person[] persons)
+        {
+            using StreamWriter Save = new StreamWriter(_dataFileName);    
+            for (int i = 0; i < persons.Length; i++)
+            {
+                Save.WriteLine(persons[i].MakeTitle());
+            }                       
+        }
+
+        public Person[] LoadPersons()
+        {
+            using StreamReader Load = new StreamReader(_dataFileName);
+
+
         }
     }
 }
