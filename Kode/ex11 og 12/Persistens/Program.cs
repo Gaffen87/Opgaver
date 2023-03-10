@@ -15,7 +15,7 @@
             };
 
             DataHandler handler = new DataHandler("Data.txt");
-            
+
             handler.SavePersons(persons);
 
             Console.WriteLine("Writing Persons: ");

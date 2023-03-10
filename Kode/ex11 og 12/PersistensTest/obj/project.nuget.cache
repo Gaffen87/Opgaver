@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2KZ0mms7fRAYQNc7sP27YjF1/Ay1QBJrblXtzolIobR5BdRLgUBscifZGS5o96TxIGKeODo/RNFRyDVRbdv5Jg==",
+  "dgSpecHash": "+JBIpAoUvpQfI2B77IsdQBnnXWRAsSu8A+hdSDu49qx+7b4sRO7qWvGJOLYLlj52ysG55QEGmIhHKSKepHxVhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex10\\PersistensTest\\PersistensTest.csproj",
+  "projectFilePath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex11 og 12\\PersistensTest\\PersistensTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\askel\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\askel\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

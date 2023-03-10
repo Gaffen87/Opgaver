@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex10\\1\\Persistens.csproj",
+      "projectUniqueName": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex11 og 12\\Persistens\\Persistens.csproj",
       "projectName": "Persistens",
-      "projectPath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex10\\1\\Persistens.csproj",
+      "projectPath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex11 og 12\\Persistens\\Persistens.csproj",
       "packagesPath": "C:\\Users\\askel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex10\\1\\obj\\",
+      "outputPath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex11 og 12\\Persistens\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\askel\\AppData\\Roaming\\NuGet\\NuGet.Config",
