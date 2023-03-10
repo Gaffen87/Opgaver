@@ -15,12 +15,8 @@
             };
 
             DataHandler handler = new DataHandler("Data.txt");
-            
+
             handler.SavePersons(persons);
-
-            int x = handler.DataFileName.Length;
-
-            Console.WriteLine(x);
 
             Console.WriteLine("Writing Persons: ");
             for (int i = 0; i < persons.Length; i++)
@@ -34,7 +30,6 @@
             {
                 Console.WriteLine(persons2[i].MakeTitle());
             }
-            
 
             Console.ReadLine();
         }
