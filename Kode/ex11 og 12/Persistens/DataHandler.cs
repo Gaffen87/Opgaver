@@ -48,7 +48,17 @@ namespace Persistens
 
         public Person[] LoadPersons()
         {
-            Person[] persons = new Person[_dataFileName.Length];
+            int arraySize = 0;
+            using StreamReader Read = new StreamReader(_dataFileName);
+            {
+                while (Read.ReadLine() != null) 
+                {
+                    arraySize++;
+                }
+            }
+
+            Person[] persons = new Person[arraySize];
+
             int i = 0;
 
             using StreamReader Load = new StreamReader(_dataFileName);
