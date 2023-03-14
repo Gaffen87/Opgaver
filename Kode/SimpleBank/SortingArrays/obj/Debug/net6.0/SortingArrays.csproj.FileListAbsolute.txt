@@ -1,0 +1,15 @@
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SortingArrays\bin\Debug\net6.0\SortingArrays.exe
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SortingArrays\bin\Debug\net6.0\SortingArrays.deps.json
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SortingArrays\bin\Debug\net6.0\SortingArrays.runtimeconfig.json
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SortingArrays\bin\Debug\net6.0\SortingArrays.dll
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SortingArrays\bin\Debug\net6.0\SortingArrays.pdb
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SortingArrays\obj\Debug\net6.0\SortingArrays.csproj.AssemblyReference.cache
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SortingArrays\obj\Debug\net6.0\SortingArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SortingArrays\obj\Debug\net6.0\SortingArrays.AssemblyInfoInputs.cache
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SortingArrays\obj\Debug\net6.0\SortingArrays.AssemblyInfo.cs
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SortingArrays\obj\Debug\net6.0\SortingArrays.csproj.CoreCompileInputs.cache
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SortingArrays\obj\Debug\net6.0\SortingArrays.dll
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SortingArrays\obj\Debug\net6.0\refint\SortingArrays.dll
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SortingArrays\obj\Debug\net6.0\SortingArrays.pdb
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SortingArrays\obj\Debug\net6.0\SortingArrays.genruntimeconfig.cache
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SortingArrays\obj\Debug\net6.0\ref\SortingArrays.dll
