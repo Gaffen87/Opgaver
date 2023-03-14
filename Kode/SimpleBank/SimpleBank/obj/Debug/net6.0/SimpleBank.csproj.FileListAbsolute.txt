@@ -1,0 +1,15 @@
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SimpleBank\bin\Debug\net6.0\SimpleBank.exe
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SimpleBank\bin\Debug\net6.0\SimpleBank.deps.json
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SimpleBank\bin\Debug\net6.0\SimpleBank.runtimeconfig.json
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SimpleBank\bin\Debug\net6.0\SimpleBank.dll
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SimpleBank\bin\Debug\net6.0\SimpleBank.pdb
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SimpleBank\obj\Debug\net6.0\SimpleBank.csproj.AssemblyReference.cache
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SimpleBank\obj\Debug\net6.0\SimpleBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SimpleBank\obj\Debug\net6.0\SimpleBank.AssemblyInfoInputs.cache
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SimpleBank\obj\Debug\net6.0\SimpleBank.AssemblyInfo.cs
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SimpleBank\obj\Debug\net6.0\SimpleBank.csproj.CoreCompileInputs.cache
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SimpleBank\obj\Debug\net6.0\SimpleBank.dll
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SimpleBank\obj\Debug\net6.0\refint\SimpleBank.dll
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SimpleBank\obj\Debug\net6.0\SimpleBank.pdb
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SimpleBank\obj\Debug\net6.0\SimpleBank.genruntimeconfig.cache
+C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\SimpleBank\SimpleBank\obj\Debug\net6.0\ref\SimpleBank.dll
