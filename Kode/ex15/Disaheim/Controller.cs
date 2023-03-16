@@ -20,7 +20,7 @@ namespace Disaheim
 
         public void AddToList(Book book) 
         { 
-            Books.Add(book); 
+            Books.Add(book);
         }
 
         public void AddToList(Amulet amulet) 
