@@ -7,15 +7,8 @@ using System.Threading.Tasks;
 
 namespace Disaheim
 {
-    public class Book
+    public class Book : Merchandise
     {
-        private string _itemId;
-        public string ItemId
-        {
-            get { return _itemId; }
-            set { _itemId = value; }
-        }
-
         private string _title;
         public string Title
         {
@@ -30,18 +23,17 @@ namespace Disaheim
             set { _price = value; }
         }
 
-
         public Book(string itemId, string title, double price)
         {
-            ItemId = itemId;
-            Title = title;
-            Price = price;
+            this.ItemId = itemId;
+            this.Title = title;
+            this.Price = price;
         }
         public Book(string itemId, string title) : this(itemId, title, 0) { }
         public Book(string itemId) : this(itemId, "", 0) { }
 
         public override string ToString()
-        {
+        { 
             return $"ItemId: {ItemId}, Title: {Title}, Price: {Price}";
         }
     }
