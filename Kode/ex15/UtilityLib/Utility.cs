@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace Disaheim
+using Disaheim;
+namespace UtilityLib
 {
     public class Utility
     {
@@ -27,6 +27,16 @@ namespace Disaheim
             {
                 return 27.5;
             }
+        }
+
+        public double GetValueOfCourse(Course course)
+        {
+            int a = course.DurationInMinutes / 60;
+            int b = course.DurationInMinutes % 60;
+            if (b != 0)
+                return 875 * (a + 1);
+            else
+                return 875 * a;
         }
 
     }

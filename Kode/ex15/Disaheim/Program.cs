@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int i = 61 / 60;
+            Console.WriteLine(i);
+
+            Console.ReadLine();
         }
     }
 }

@@ -1911,6 +1911,19 @@
         "runtime": {
           "bin/placeholder/Disaheim.dll": {}
         }
+      },
+      "UtilityLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Disaheim": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UtilityLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UtilityLib.dll": {}
+        }
       }
     }
   },
@@ -6776,6 +6789,11 @@
       "type": "project",
       "path": "../Disaheim/Disaheim.csproj",
       "msbuildProject": "../Disaheim/Disaheim.csproj"
+    },
+    "UtilityLib/1.0.0": {
+      "type": "project",
+      "path": "../UtilityLib/UtilityLib.csproj",
+      "msbuildProject": "../UtilityLib/UtilityLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6784,6 +6802,7 @@
       "MSTest.TestAdapter >= 2.2.10",
       "MSTest.TestFramework >= 2.2.10",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
+      "UtilityLib >= 1.0.0",
       "coverlet.collector >= 3.1.2"
     ]
   },
@@ -6816,6 +6835,9 @@
           "projectReferences": {
             "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex15\\Disaheim\\Disaheim.csproj": {
               "projectPath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex15\\Disaheim\\Disaheim.csproj"
+            },
+            "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex15\\UtilityLib\\UtilityLib.csproj": {
+              "projectPath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex15\\UtilityLib\\UtilityLib.csproj"
             }
           }
         }
