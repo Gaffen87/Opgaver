@@ -15,8 +15,8 @@ namespace DisaheimTest
         Course c1, c2;
 
         CourseRepository courses;
-        BookRepository books;
-        AmuletRepository amulets;
+        MerchandiseRepository books;
+        MerchandiseRepository amulets;
 
         [TestInitialize]
         public void Init()
@@ -34,17 +34,17 @@ namespace DisaheimTest
             c2 = new Course("Nuru Massage using Chia Oil", 157);
 
             courses = new CourseRepository();
-            books = new BookRepository();
-            amulets = new AmuletRepository();
+            books = new MerchandiseRepository();
+            amulets = new MerchandiseRepository();
 
             // Act
-            books.AddBook(b1);
-            books.AddBook(b2);
-            books.AddBook(b3);
+            books.AddMerchandise(b1);
+            books.AddMerchandise(b2);
+            books.AddMerchandise(b3);
 
-            amulets.AddAmulet(a1);
-            amulets.AddAmulet(a2);
-            amulets.AddAmulet(a3);
+            amulets.AddMerchandise(a1);
+            amulets.AddMerchandise(a2);
+            amulets.AddMerchandise(a3);
 
             courses.AddCourse(c1);
             courses.AddCourse(c2);
@@ -54,13 +54,13 @@ namespace DisaheimTest
         public void TestGetBook()
         {
             // Assert
-            Assert.AreEqual(b2, books.GetBook("2"));
+            Assert.AreEqual(b2, books.GetMerchandise("2"));
         }
         [TestMethod]
         public void TestGetAmulet()
         {
             // Assert
-            Assert.AreEqual(a3, amulets.GetAmulet("13"));
+            Assert.AreEqual(a3, amulets.GetMerchandise("13"));
         }
         [TestMethod]
         public void TestGetCourse()

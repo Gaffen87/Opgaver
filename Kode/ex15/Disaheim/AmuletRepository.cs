@@ -25,16 +25,16 @@ namespace Disaheim
             return null;
         }
 
-        public double GetTotalValue() 
-        {
-            double total = 0;
-            Utility utility = new Utility();
-            foreach (var amulet in amulets)
-            {
-                total += utility.GetValueOfAmulet(amulet);
-            }
-            return total;
-        }
+        //public double GetTotalValue()
+        //{
+        //    double total = 0;
+        //    Utility utility = new Utility();
+        //    foreach (var amulet in amulets)
+        //    {
+        //        total += utility.GetValueOfAmulet(amulet);
+        //    }
+        //    return total;
+        //}
 
     }
 }

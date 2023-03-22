@@ -25,17 +25,17 @@ namespace Disaheim
             return null;
         }
 
-        public double GetTotalValue() 
-        { 
-            double total = 0;
-            Utility utility = new Utility();
+        //public double GetTotalValue() 
+        //{ 
+        //    double total = 0;
+        //    Utility utility = new Utility();
 
-            foreach (var book in books)
-            {
-                total += utility.GetValueOfBook(book);
-            }
-            return total;
-        }
+        //    foreach (var book in books)
+        //    {
+        //        total += utility.GetValueOfBook(book);
+        //    }
+        //    return total;
+        //}
 
 
     }
