@@ -103,5 +103,3 @@ C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\
 C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\ex15\DisaheimTest\obj\Debug\net6.0\DisaheimTest.pdb
 C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\ex15\DisaheimTest\obj\Debug\net6.0\DisaheimTest.genruntimeconfig.cache
 C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\ex15\DisaheimTest\obj\Debug\net6.0\ref\DisaheimTest.dll
-C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\ex15\DisaheimTest\bin\Debug\net6.0\UtilityLib.dll
-C:\Users\askel\Desktop\Skole\Programmering\Hjemmeprojekter\hjemmeprojekter\Kode\ex15\DisaheimTest\bin\Debug\net6.0\UtilityLib.pdb

@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "Disaheim/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Disaheim.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Disaheim.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "Disaheim/1.0.0": {
-      "type": "project",
-      "path": "../Disaheim/Disaheim.csproj",
-      "msbuildProject": "../Disaheim/Disaheim.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "Disaheim >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\askel\\.nuget\\packages\\": {}
@@ -52,11 +33,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex15\\Disaheim\\Disaheim.csproj": {
-              "projectPath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex15\\Disaheim\\Disaheim.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
