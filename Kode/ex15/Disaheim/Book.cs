@@ -32,6 +32,11 @@ namespace Disaheim
         public Book(string itemId, string title) : this(itemId, title, 0) { }
         public Book(string itemId) : this(itemId, "", 0) { }
 
+        public override double GetValue()
+        {
+            return _price;
+        }
+
         public override string ToString()
         { 
             return $"ItemId: {ItemId}, Title: {Title}, Price: {Price}";

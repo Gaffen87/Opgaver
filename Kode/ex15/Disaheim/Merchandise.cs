@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Disaheim
 {
-    public abstract class Merchandise
+    public abstract class Merchandise : IValuable
     {
         public string ItemId { get; set; }
+
+        public abstract double GetValue();
 
         public override string ToString()
         {

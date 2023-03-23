@@ -12,6 +12,8 @@
   <ItemGroup>
     <Compile Remove="UnitTest1.cs" />
     <Compile Remove="UnitTest2.cs" />
+    <Compile Remove="UnitTest3.cs" />
+    <Compile Remove="UnitTest4.cs" />
   </ItemGroup>
 
   <ItemGroup>
