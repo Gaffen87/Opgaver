@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Kode\\ex07\\ex07 - menu\\ex07 - menu.csproj",
+      "projectUniqueName": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex07\\ex07 - menu\\ex07 - menu.csproj",
       "projectName": "ex07 - menu",
-      "projectPath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Kode\\ex07\\ex07 - menu\\ex07 - menu.csproj",
+      "projectPath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex07\\ex07 - menu\\ex07 - menu.csproj",
       "packagesPath": "C:\\Users\\askel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Kode\\ex07\\ex07 - menu\\obj\\",
+      "outputPath": "C:\\Users\\askel\\Desktop\\Skole\\Programmering\\Hjemmeprojekter\\hjemmeprojekter\\Kode\\ex07\\ex07 - menu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\askel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
