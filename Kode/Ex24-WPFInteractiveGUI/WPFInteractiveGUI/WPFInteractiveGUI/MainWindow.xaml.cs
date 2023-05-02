@@ -46,6 +46,8 @@ namespace WPFInteractiveGUI
 			tbLastName.IsEnabled = true;
 			tbAge.IsEnabled = true;
 			tbTelephoneNo.IsEnabled = true;
+
+			tbFirstName.Focus();
 		}
 
 		private void tbFirstName_TextChanged(object sender, TextChangedEventArgs e)
