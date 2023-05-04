@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WPFAndMVVM2": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
