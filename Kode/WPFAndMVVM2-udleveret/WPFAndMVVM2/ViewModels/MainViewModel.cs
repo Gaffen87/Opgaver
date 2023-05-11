@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Text;
+using System.Windows.Input;
+using WPFAndMVVM2.Commands;
 using WPFAndMVVM2.Models;
 
 namespace WPFAndMVVM2.ViewModels
@@ -25,6 +27,10 @@ namespace WPFAndMVVM2.ViewModels
                 OnPropertyChanged(nameof(SelectedPerson));
             }
         }
+
+        public ICommand NewPersonCommand { get; set; } = new NewPersonCmd();
+
+        public ICommand DeletePersonCommand { get; set; } = new DeletePersonCmd();
 
         public MainViewModel()
         {
