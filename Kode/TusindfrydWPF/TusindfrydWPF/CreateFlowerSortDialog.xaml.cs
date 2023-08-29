@@ -13,6 +13,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Microsoft.Data.SqlClient;
+using System.Data;
+using System.Configuration;
 
 namespace TusindfrydWPF
 {
@@ -22,10 +25,37 @@ namespace TusindfrydWPF
 	public partial class CreateFlowerSortDialog : Window
 	{
 		public FlowerSort flowersort = new FlowerSort();
+		private string ConnectionString = ConfigurationManager.ConnectionStrings["DatabaseServerInstance"].ConnectionString;
 
 		public CreateFlowerSortDialog()
 		{
 			InitializeComponent();
+		}
+
+		private void Create(FlowerSort flowerSort)
+		{ 
+			using (SqlConnection connection = new SqlConnection(ConnectionString))
+			{
+				SqlCommand cmd = new SqlCommand("INSERT INTO FLOWERSORT (Name, ProductionTimeInDays, HalfLife, Size, ImagePath)" + "VALUES(@Name, @ProductionTimeInDays, @HalfLife, @Size, @ImagePath)" + "SELECT @@IDENTITY", connection);
+				cmd.Parameters.Add("@Name", SqlDbType.NVarChar).Value = flowersort.Name;
+				cmd.Parameters.Add("@ProductionTimeInDays", SqlDbType.Int).Value = flowersort.ProductionTime;
+				cmd.Parameters.Add("@HalfLife", SqlDbType.Int).Value = flowersort.HalfLifeTime;
+				cmd.Parameters.Add("@Size", SqlDbType.Float).Value = (float)flowersort.Size;
+				cmd.Parameters.Add("@ImagePath", SqlDbType.NVarChar).Value = flowersort.PicturePath;
+				try
+				{
+					connection.Open();
+					cmd.ExecuteNonQuery();
+				}
+				catch (SqlException ex)
+				{
+					Console.WriteLine(ex.Message);
+				}
+				finally
+				{ 
+					connection.Close(); 
+				}
+			}
 		}
 
 		private void btOkay_Click(object sender, RoutedEventArgs e)
@@ -50,6 +80,8 @@ namespace TusindfrydWPF
 			{
 				flowersort.Size = size;
 			}
+
+			Create(flowersort);
 
 			DialogResult = true;
 		}
@@ -77,7 +109,7 @@ namespace TusindfrydWPF
 			}
 			finally
 			{
-				tbBilledsti.Clear();
+				//tbBilledsti.Clear();
 			}
 		}
 	}
