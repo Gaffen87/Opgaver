@@ -16,6 +16,7 @@ using System.Windows.Shapes;
 using Microsoft.Data.SqlClient;
 using System.Data;
 using System.Configuration;
+using System.Diagnostics;
 
 namespace TusindfrydWPF
 {
@@ -33,10 +34,12 @@ namespace TusindfrydWPF
 		}
 
 		private void Create(FlowerSort flowerSort)
-		{ 
+		{
+			string QueryString = "INSERT INTO FlowerSort (Name, ProductionTimeInDays, HalfLife, Size, ImagePath)" + "VALUES(@Name, @ProductionTimeInDays, @HalfLife, @Size, @ImagePath)" + "SELECT @@IDENTITY";
+
 			using (SqlConnection connection = new SqlConnection(ConnectionString))
 			{
-				SqlCommand cmd = new SqlCommand("INSERT INTO FLOWERSORT (Name, ProductionTimeInDays, HalfLife, Size, ImagePath)" + "VALUES(@Name, @ProductionTimeInDays, @HalfLife, @Size, @ImagePath)" + "SELECT @@IDENTITY", connection);
+				SqlCommand cmd = new SqlCommand(QueryString, connection);
 				cmd.Parameters.Add("@Name", SqlDbType.NVarChar).Value = flowersort.Name;
 				cmd.Parameters.Add("@ProductionTimeInDays", SqlDbType.Int).Value = flowersort.ProductionTime;
 				cmd.Parameters.Add("@HalfLife", SqlDbType.Int).Value = flowersort.HalfLifeTime;
@@ -45,7 +48,8 @@ namespace TusindfrydWPF
 				try
 				{
 					connection.Open();
-					cmd.ExecuteNonQuery();
+					int rows = cmd.ExecuteNonQuery();
+					Debug.WriteLine($"{rows} affected");
 				}
 				catch (SqlException ex)
 				{
@@ -53,8 +57,8 @@ namespace TusindfrydWPF
 				}
 				finally
 				{ 
-					connection.Close(); 
-				}
+					connection.Close();
+                }
 			}
 		}
 
