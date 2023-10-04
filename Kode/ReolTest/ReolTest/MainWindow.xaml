@@ -89,6 +89,7 @@
 
                 <Button Padding="4" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Tilføj kunde</Button>
             </Grid>
+            <DatePicker HorizontalAlignment="Left" Margin="120,408,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         </Grid>
 
     </Grid>
